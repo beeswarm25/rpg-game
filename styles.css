@@ -68,3 +68,32 @@ background-color: #2e2236;
     padding: .8rem 1rem;
     margin: 8px;
   }
+
+  .shiny-button {
+    position: relative;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  /* Creating the shine effect */
+  .shiny-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 110%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent 30%,
+      rgba(255, 255, 255, 0.7) 50%,
+      transparent 70%
+    );
+    transform: skewX(-30deg);
+    transition: left 0.3s ease-in-out;
+  }
+  
+  /* Trigger shine effect on hover */
+  .shiny-button:hover::before {
+    left: 100%;
+  }
