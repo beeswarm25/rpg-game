@@ -44,7 +44,7 @@ const locations = [
     name: "town square",
     "button text": ["Go to store", "Go to cave", "Fight dragon"],
     "button functions": [goStore, goCave, fightDragon],
-    text: "You are in the town square. You see a sign that says \"Store\"."
+    text: "You are in the town square.\n\nYou see a sign that says \"Store\".\nOff in the distance you spot a dark cave.\nAlso, a dragons screeching cry can be heard in the mountains past the town."
   },
   {
     name: "store",
