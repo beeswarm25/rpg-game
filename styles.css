@@ -28,7 +28,8 @@ background-color: #2e2236;
     height: auto;
     background-color: #ffffff;
     color: #ffffff;
-    margin: 30px auto 0px;
+    margin: 0 auto;
+    border: 1px solid #fff;
   }
   
   #controls {
@@ -65,4 +66,5 @@ background-color: #2e2236;
     border: 3px solid #feac32;
     font-size: 1rem;
     padding: .8rem 1rem;
+    margin: 8px;
   }
