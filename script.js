@@ -39,12 +39,13 @@ const monsters = [
     health: 300
   }
 ]
+// removed this text below \n\nYou see a sign that says \"Store\".\nOff in the distance you spot a dark cave.\nAlso, a dragons screeching cry can be heard in the mountains past the town.
 const locations = [
   {
     name: "town square",
     "button text": ["Go to store", "Go to cave", "Fight dragon"],
     "button functions": [goStore, goCave, fightDragon],
-    text: "You are in the town square.\n\nYou see a sign that says \"Store\".\nOff in the distance you spot a dark cave.\nAlso, a dragons screeching cry can be heard in the mountains past the town."
+    text: "You are in the town square."
   },
   {
     name: "store",
