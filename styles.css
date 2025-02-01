@@ -1,12 +1,12 @@
 body {
-    background-color: #0a0a23;
+    background-color: #2e2236;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-style: normal;
   }
 
   #logo {
-
+background-color: #2e2236;
   }
 
   #logo img {
@@ -17,7 +17,7 @@ body {
   }
   
   #text {
-    background-color: #0a0a23;
+    background-color: #2e2236;
     color: #ffffff;
     padding: 1rem;
     font-size:1.2rem;
@@ -29,26 +29,25 @@ body {
     background-color: #ffffff;
     color: #ffffff;
     margin: 30px auto 0px;
-    padding: 10px;
   }
   
   #controls {
-    border: 1px solid #0a0a23;
+    border: 1px solid #2e2236;
     padding: 1rem;
     text-align: center;
-    color: #0a0a23;
+    color: #2e2236;
   }
 
   #stats {
-    border: 1px solid #0a0a23;
+    border: 1px solid #2e2236;
     padding: 1rem;
     text-align: center;
-    color: #0a0a23;
+    color: #2e2236;
   }
   
   #monsterStats {
     display: none;
-    border: 1px solid #0a0a23;
+    border: 1px solid #2e2236;
     padding: 1rem;
     color: #ffffff;
     background-color: #c70d0d;
@@ -60,7 +59,7 @@ body {
   
   button {
     cursor: pointer;
-    color: #0a0a23;
+    color: #2e2236;
     background-color: #feac32;
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
